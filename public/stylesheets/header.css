@@ -113,7 +113,7 @@ a.active-night {
   transform: translatex(0);
 }
 
-.nav-items-mobile.active-night {
+.nav-list-mobile.active-night {
   background-color: rgba(255, 255, 255);
 }
 
