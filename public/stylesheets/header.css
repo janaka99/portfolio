@@ -82,27 +82,23 @@ a.active-night {
   cursor: pointer;
 }
 .nav-items-mobile {
-  position: absolute;
-  height: 100vh;
-  top: 50px;
-  right: 0;
-  width: 60%;
-  background-color: rgb(51, 51, 51);
-
-  justify-content: center;
-  text-align: center;
-  transform: translateX(100%);
-  transition: transform 0.5s ease-in;
-  border: none;
+  position: relative;
 }
 
 .nav-list-mobile {
-  height: 100%;
-  margin: 0 auto;
+  position: absolute;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   z-index: 1;
+  height: 80vh;
+  right: 0;
+  width: 60%;
+  background-color: rgb(51, 51, 51);
+  text-align: center;
+  transform: translateX(100%);
+  transition: transform 0.5s ease-in;
+  border: none;
 }
 
 .nav-items-mobile .nav-list-mobile li {

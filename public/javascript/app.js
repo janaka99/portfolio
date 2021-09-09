@@ -1,5 +1,5 @@
 const burger = document.querySelector('.burger');
-const navigation = document.querySelector('.nav-items-mobile');
+const navigation = document.querySelector('.nav-list-mobile');
 const social = document.querySelector('.social')
 
 
