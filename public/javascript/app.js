@@ -19,7 +19,7 @@ const links = document.querySelectorAll('a');
 const night = document.querySelector('.cloud-sun');
 const nightrain = document.querySelector('.cloud-sun-rain');
 const btn = document.querySelectorAll('.btn');
-const navitems = document.querySelector('.nav-items-mobile');
+const navitems = document.querySelector('.nav-list-mobile');
 const navitemsa = document.querySelector('.nav-items-mobile .nav-list-mobile li a');
 
 
