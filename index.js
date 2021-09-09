@@ -1,3 +1,5 @@
+
+
 const express = require('express');
 const path = require('path');
 
@@ -17,10 +19,8 @@ app.get('/', (req, res)=>{
 });
 
 
-app.all('*', (req, res) =>{
+app.all('*', (req, res, next) =>{
     res.render('error')
 })
 
-app.listen(3000, ()=>{
-    console.log("Startted")
-});
+app.listen(process.env.PORT || 3000)
