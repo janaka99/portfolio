@@ -19,7 +19,7 @@ const links = document.querySelectorAll('a');
 const night = document.querySelector('.cloud-sun');
 const nightrain = document.querySelector('.cloud-sun-rain');
 const btn = document.querySelectorAll('.btn');
-const navitems = document.querySelector('.nav-list-mobile');
+const footer = document.querySelector('.footers');
 const navitemsa = document.querySelector('.nav-items-mobile .nav-list-mobile li a');
 
 
@@ -29,6 +29,7 @@ const nightmodeactive = function(e){
         night.classList.toggle('active-night');
         nightrain.classList.toggle('active-night')
         wholebody.classList.toggle('active-night')
+        footer.classList.toggle('active-night')
         for(let link of links){
             link.classList.toggle('active-night')
         }
@@ -36,7 +37,6 @@ const nightmodeactive = function(e){
             bt.classList.toggle('active-night')
 
         }
-        navitems.classList.toggle('active-night');
         for(let a of navitemsa){
             a.classList.toggle('active-night')
 
